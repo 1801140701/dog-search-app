@@ -1,0 +1,49 @@
+.sorting {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sort-options {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.sort-options2 {
+    display: flex;
+    gap: 10px;
+}
+
+.sort-text {
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.sort-text:hover {
+    color: #007bff;
+    /* Light blue color on hover */
+}
+
+.sort-text.active {
+    color: skyblue;
+    /* Sky blue color when active */
+    font-weight: bold;
+    /* Optional: bold the active text */
+}
+
+.reset {
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: underline;
+    /* Add space between reset and the sorting options */
+}
+
+.reset:hover {
+    color: #007bff;
+}
